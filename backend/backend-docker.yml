@@ -15,7 +15,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: ${KEYCLOAK_URL:http://keycloak:8080}/realms/${KEYCLOAK_REALM:qr-attendance}
+          issuer-uri: http://localhost:8080/realms/qr-attendance
   data:
     redis:
       host: ${REDIS_HOST:redis}
