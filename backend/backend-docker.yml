@@ -21,6 +21,7 @@ spring:
       port: 6379
 app:
   qr-refresh-interval: ${QR_REFRESH_INTERVAL:30000}
+  qr-secret: ${QR_SECRET:default-secret-change-in-production}
   attendance:
     threshold: ${ATTENDANCE_THRESHOLD:70.0}
   student-email-domain: ${STUDENT_EMAIL_DOMAIN:student.etf.unibl.org}
