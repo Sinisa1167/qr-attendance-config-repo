@@ -20,9 +20,9 @@ spring:
       host: ${REDIS_HOST:redis}
       port: 6379
 app:
-  qr-refresh-interval: ${QR_REFRESH_INTERVAL:30000}
-  qr-secret: ${QR_SECRET:default-secret-change-in-production}
+  qr-secret: ${QR_SECRET}
+  qr-refresh-interval: ${QR_REFRESH_INTERVAL}
   attendance:
-    threshold: ${ATTENDANCE_THRESHOLD:70.0}
-  student-email-domain: ${STUDENT_EMAIL_DOMAIN:student.etf.unibl.org}
-  employee-email-domain: ${EMPLOYEE_EMAIL_DOMAIN:etf.unibl.org}
+    threshold: ${ATTENDANCE_THRESHOLD}
+  student-email-domain: ${STUDENT_EMAIL_DOMAIN}
+  employee-email-domain: ${EMPLOYEE_EMAIL_DOMAIN}
