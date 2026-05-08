@@ -6,11 +6,12 @@ app:
           - { from: 1101, to: 1159 }
       - name: "Г2"
         ranges:
-          - { from: 1160, to: 11117 }
+          - { from: 1160,  to: 1199  }   # 1xxx dio
+          - { from: 11101, to: 11117 }   # 11xxx dio
       - name: "Г3"
         ranges:
-          - { from: 11118, to: 11123 }
-          - { from: 1201,  to: 1252  }
+          - { from: 11118, to: 11123 }   # 11xxx dio
+          - { from: 1201,  to: 1252  }   # 1xxx dio
       - name: "Г4"
         ranges:
           - { from: 1253, to: 1255 }
@@ -31,11 +32,12 @@ app:
           - { from: 1166, to: 1188 }
       - name: "Л5"
         ranges:
-          - { from: 1189, to: 11108 }
+          - { from: 1189,  to: 1199  }   # 1xxx dio
+          - { from: 11101, to: 11108 }   # 11xxx dio
       - name: "Л6"
         ranges:
-          - { from: 11109, to: 11123 }
-          - { from: 1201,  to: 1206  }
+          - { from: 11109, to: 11123 }   # 11xxx dio
+          - { from: 1201,  to: 1206  }   # 1xxx dio
       - name: "Л7"
         ranges:
           - { from: 1207, to: 1226 }
