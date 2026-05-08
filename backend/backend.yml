@@ -33,10 +33,10 @@ app:
       - name: "Л5"
         ranges:
           - { from: 1189,  to: 1199  }   # 1xxx dio
-          - { from: 11101, to: 11108 }   # 11xxx dio
+          - { from: 11100, to: 11108 }   # 11xxx dio
       - name: "Л6"
         ranges:
-          - { from: 11109, to: 11123 }   # 11xxx dio
+          - { from: 11109, to: 11124 }   # 11xxx dio
           - { from: 1201,  to: 1206  }   # 1xxx dio
       - name: "Л7"
         ranges:
@@ -46,7 +46,7 @@ app:
           - { from: 1227, to: 1249 }
       - name: "Л9"
         ranges:
-          - { from: 1251, to: 1255 }
+          - { from: 1251, to: 1259 }
           - { from: 1301, to: 1316 }
       - name: "Л10"
         ranges:
