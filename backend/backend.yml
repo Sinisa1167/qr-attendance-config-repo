@@ -7,11 +7,11 @@ app:
       - name: "Г2"
         ranges:
           - { from: 1160,  to: 1199  }   # 1xxx dio
-          - { from: 11101, to: 11117 }   # 11xxx dio
+          - { from: 11100, to: 11117 }   # 11xxx dio
       - name: "Г3"
         ranges:
-          - { from: 11118, to: 11123 }   # 11xxx dio
-          - { from: 1201,  to: 1252  }   # 1xxx dio
+          - { from: 11118, to: 11124 }   # 11xxx dio
+          - { from: 1201,  to: 1259  }   # 1xxx dio
       - name: "Г4"
         ranges:
           - { from: 1253, to: 1255 }
